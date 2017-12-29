@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
-  get 'workoutubes/keyboard'
+  get '/keyboard' => 'workoutubes#keyboard'
 
-  get 'workoutubes/message'
+  post '/message' => 'workoutubes#message'
 
-  get 'keyboard/message'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
