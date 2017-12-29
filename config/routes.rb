@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'workoutubes/keyboard'
+
+  get 'workoutubes/message'
+
   get 'keyboard/message'
 
   # The priority is based upon order of creation: first created -> highest priority.
