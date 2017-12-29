@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   get '/keyboard' => 'workoutubes#keyboard'
 
   post '/message' => 'workoutubes#message'
+  get '/message' => 'workoutubes#message'
 
 
 
