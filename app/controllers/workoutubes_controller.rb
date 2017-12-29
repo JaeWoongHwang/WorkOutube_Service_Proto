@@ -39,7 +39,7 @@ class WorkoutubesController < ApplicationController
       message: {
           text: user_message,
           message_button: {
-            label: user_message + "동영상 주소",
+            label: user_message + " " + "자세 영상",
             url: return_url
           }
           },
